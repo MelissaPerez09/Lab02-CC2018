@@ -1,3 +1,3 @@
 #! /bin/bash
 
-./configure.sh && ./build.sh && ./build/GAME
+./configure.sh && ./build.sh && ./build/PROJECT

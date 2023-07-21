@@ -10,3 +10,10 @@ find_package(SDL2 REQUIRED)
 add_executable(${PROJECT_NAME}
     src/main.cpp
 )
+
+target_include_directories(
+    ${PROJECT_NAME}
+    PUBLIC /opt/homebrew/Cellar/sdl2/2.28.1/include/
+)
+
+target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARIES})
