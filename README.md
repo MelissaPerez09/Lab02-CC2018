@@ -13,7 +13,7 @@ Ejecuta los comandos en el siguiente orden
 ```
 cmake -G "Unix Makefiles" -S . -B build
 cd build && make
-call GAME.exe
+call PROJECT.exe
 ```
 
 ## Resultado final
